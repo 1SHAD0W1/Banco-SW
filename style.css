@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+
+body{
+    background-image: linear-gradient(to right, rgb(46, 41, 41), rgb(46, 107, 97));
+    font-size: x-large;
+}
+
+
+
+fieldset{
+
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(0, 0, 0);
+    width: 17%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+
+
+legend{
+    border: 3px solid rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: x-large;
+    
+}
+
+button{
+    border-radius: 40px;
+    transform: translate(77px, -10px);
+    background-color: white;
+    font-size: large;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.cadastro{
+    font-style: italic;
+}
+
+.input{
+
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    outline: none;
+    font-size: 20px;
+    width: 100%;
+
+}
+ 
+.voltar{
+
+    position: relative;
+    top: 30px;
+    left: -40px;
+    font-size: 23px;
+    border-radius: 10px;
+}
+
